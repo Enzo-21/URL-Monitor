@@ -1,0 +1,17 @@
+{
+    "manifest_version": 3,
+    "name": "URL Monitor",
+    "description": "Checks if the user remains in a tab. If the tab url changes, it sends a message",
+    "version": "1.0",
+    "action": {
+        "default_popup": "index.html"
+    },
+    "permissions": [
+        "scripting",
+        "storage",
+        "tabs"
+    ],
+    "host_permissions": [
+        "http://*/*", "https://*/*"
+    ]
+  }
